@@ -1,0 +1,46 @@
+{
+    "name": "opcua-server",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "opcua-server",
+    "workspaceFolder": "/app",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "GrapeCity.gc-excelviewer",
+        "hediet.vscode-drawio",
+        "mhutchie.git-graph",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.jupyter",
+        "njpwerner.autodocstring",
+        "PKief.material-icon-theme",
+    ],
+    "settings": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.cursorStyle": "line",
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": false,
+        "editor.renderWhitespace": "all",
+        "editor.rulers": [
+            99
+        ],
+        "editor.tabSize": 4,
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+        "python.formatting.provider": "black",
+        "python.languageServer": "Pylance",
+        "python.linting.enabled": true,
+        "python.linting.flake8Enablzed": true,
+        "python.linting.lintOnSave": true,
+        "python.linting.mypyEnabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.pythonPath": "/opt/conda/bin/python",
+        "remote.SSH.connectTimeout": 40,
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.enableMultiLinePasteWarning": false,
+    }
+}

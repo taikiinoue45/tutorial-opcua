@@ -1,0 +1,13 @@
+version: "3"
+services:
+  opcua-server:
+    image: opcua-server:latest
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: opcua-server
+    stdin_open: true
+    tty: true
+    privileged: true
+    volumes:
+      - ../:/app
